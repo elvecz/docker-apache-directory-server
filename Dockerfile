@@ -1,7 +1,7 @@
 FROM enschede/linux-core-jdk7
 
 RUN cd /usr/local && \
-    wget http://archive.apache.org/dist/directory/apacheds/dist/2.0.0-M17/apacheds-2.0.0-M23.zip && \
+    wget http://archive.apache.org/dist/directory/apacheds/dist/2.0.0-M23/apacheds-2.0.0-M23.zip && \
     unzip apacheds-2.0.0-M23.zip && \
     chmod a+x apacheds-2.0.0-M23/bin/apacheds.sh && \
     rm apacheds-2.0.0-M23.zip && \
